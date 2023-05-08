@@ -36,7 +36,7 @@ function PropertyDropdown() {
           return(
             <Menu.Item 
               onClick={()=> setProperty(property)}
-              className="cursor-pointer hover:text-violet-700 transition" 
+              className="cursor-pointer hover:text-amber-5gi00 transition" 
               as="li" 
               key={index}
             >

@@ -38,7 +38,7 @@ function LocationDropdown() {
           return(
             <Menu.Item 
               onClick={()=> setLocation(location)}
-              className="cursor-pointer hover:text-ambie-600 transition" 
+              className="cursor-pointer hover:text-amber-600 transition" 
               as="li" 
               key={index}
             >
