@@ -42,7 +42,7 @@ function PriceRangeDropdown() {
   ]
 
   return (
-    <Menu as="div" className="dropdown relative">
+    <Menu as="div" className="dropdown">
       <Menu.Button 
         onClick={() => setIsOpen(!isOpen)}
         className="dropdown-btn w-full text-left"
