@@ -1,4 +1,5 @@
 import React from 'react'
+import Banner from "./Banner"
 
 function Hero() {
   return (
@@ -11,7 +12,7 @@ function Hero() {
       '>
       <div className='container mx-auto text-center'>
         <h1 className='text-2xl mx-auto font-semibold mb-[30px] lg:text-[64px] lg:leading-tight lg:max-w-[888px]'>
-          Your Dream Home Awaits with <span className='text-amber-500 bg-zinc-950 p-2 rounded-3xl'>Casalink</span>
+          Your Dream Home Awaits with <span className='text-amber-500 bg-zinc-950 p-2 rounded-3xl'>CASALINK</span>
         </h1>
         <h2 className='mb-[30px] max-w-[627px] mx-auto lg:mb-[50px] lg:text-xl font-semibold'>
           Discover the Perfect Property and Make Your Dream a Reality
@@ -24,8 +25,11 @@ function Hero() {
                     rounded-md 
                     backdrop-blur-md 
                     transition
-                    lg:px-[80px] lg:py-[16px]
+                    lg:px-[80px] lg:py-[16px] 
         '>Get Started</button>
+        <div>
+          <Banner />
+        </div>
       </div>
     </section>
   )

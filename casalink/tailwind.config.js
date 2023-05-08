@@ -26,7 +26,7 @@ module.exports = {
         1: '0px 4px 30px rgba(0, 0, 0, 0.08)',
       },
       backgroundImage: {
-        hero: 'url("/src/assets/img/house-banner.jpg")',
+        hero: 'url("/src/assets/img/house-hero.jpg")',
       },
     },
   },
